@@ -15,7 +15,12 @@ public class IntroActivity extends AppIntro {
         addSlide(SampleSlide.newInstance(R.layout.slide_2));
         addSlide(SampleSlide.newInstance(R.layout.slide_3));
 
-        setFadeAnimation();
+        setDepthAnimation();
+
+        showStatusBar(false);
+
+        setVibrate(true);
+        setVibrateIntensity(30);
     }
 
 
