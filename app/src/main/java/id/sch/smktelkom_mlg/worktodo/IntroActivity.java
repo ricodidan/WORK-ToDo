@@ -14,6 +14,7 @@ public class IntroActivity extends AppIntro {
         addSlide(SampleSlide.newInstance(R.layout.slide_1));
         addSlide(SampleSlide.newInstance(R.layout.slide_2));
         addSlide(SampleSlide.newInstance(R.layout.slide_3));
+        addSlide(SampleSlide.newInstance(R.layout.slide_4));
 
         setDepthAnimation();
 

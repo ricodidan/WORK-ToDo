@@ -15,7 +15,7 @@
         android:gravity="center"
         android:paddingLeft="32dp"
         android:paddingRight="29dp"
-        android:text="Welcome to WORK ToDo"
+        android:text="Selamat Datang di\nWORK ToDo"
         android:textColor="#ffffff"
         android:textSize="27sp"
         android:textStyle="bold" />
@@ -28,7 +28,6 @@
         android:orientation="vertical"
         android:weightSum="1">
 
-        //image link from drawable folder
 
         <ImageView
             android:layout_width="match_parent"
@@ -46,9 +45,9 @@
         android:layout_gravity="center"
         android:layout_weight="3"
         android:gravity="center"
-        android:paddingLeft="64dp"
-        android:paddingRight="64dp"
-        android:text="Amazing android app with cool features."
+        android:paddingLeft="34dp"
+        android:paddingRight="34dp"
+        android:text="Aplikasi ini dibuat untuk membantu para siswa terutama anak kos SMK Telkom Malang dalam mengatur kegiatan dan tugas sekolah dengan sistem notifikasi"
         android:textColor="#ffffff"
         android:textSize="16sp" />
 

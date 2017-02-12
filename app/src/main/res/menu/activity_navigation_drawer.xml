@@ -3,33 +3,49 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_menu"
+            android:id="@+id/nav_guide"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Main Menu" />
+            android:title="Guide ^_^" />
+        <item
+            android:id="@+id/nav_allday"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Semua Hari" />
         <item
             android:id="@+id/nav_first"
             android:icon="@drawable/ic_menu_camera"
-            android:title="First Layout" />
+            android:title="Hari Senin" />
         <item
             android:id="@+id/nav_second"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Second Layout" />
+            android:title="Hari Selasa" />
         <item
             android:id="@+id/nav_third"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Third Layout" />
+            android:title="Hari Rabu" />
+        <item
+            android:id="@+id/nav_four"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hari Kamis" />
+        <item
+            android:id="@+id/nav_five"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hari Jumat" />
+        <item
+            android:id="@+id/nav_six"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hari Sabtu" />
+        <item
+            android:id="@+id/nav_seven"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hari Minggu" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Tentang">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="About Us" />
         </menu>
     </item>
 

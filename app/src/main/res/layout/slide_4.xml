@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="10"
-    android:background="#2fcc72"
+    android:background="#e4272d"
     android:orientation="vertical">
 
     <TextView
@@ -15,7 +15,7 @@
         android:gravity="center"
         android:paddingLeft="32dp"
         android:paddingRight="29dp"
-        android:text="Kegiatan Kos"
+        android:text="Selamat menggunakan\nWORK ToDo"
         android:textColor="#ffffff"
         android:textSize="27sp"
         android:textStyle="bold" />
@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/ic_menu_manage" />
+            android:src="@drawable/ic_menu_camera" />
     </LinearLayout>
 
     <TextView
@@ -44,7 +44,7 @@
         android:gravity="center"
         android:paddingLeft="34dp"
         android:paddingRight="34dp"
-        android:text="50+ amazing features and it's 100% free to use."
+        android:text="@string/team"
         android:textColor="#ffffff"
         android:textSize="16sp" />
 

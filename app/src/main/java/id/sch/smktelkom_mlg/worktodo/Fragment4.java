@@ -11,14 +11,14 @@ import android.view.ViewGroup;
  * Created by Enrico_Didan on 23/01/2017.
  */
 
-public class Fragment2 extends Fragment {
+public class Fragment4 extends Fragment {
 
     View myView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.layout_selasa, container, false);
+        myView = inflater.inflate(R.layout.layout_kamis, container, false);
         return myView;
     }
 
@@ -26,6 +26,6 @@ public class Fragment2 extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //you can set the title for your toolbar here for different fragments different titles
-        getActivity().setTitle("ToDo Hari Selasa");
+        getActivity().setTitle("ToDo Hari Kamis");
     }
 }
