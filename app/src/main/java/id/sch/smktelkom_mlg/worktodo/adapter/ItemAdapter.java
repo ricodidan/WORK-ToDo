@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom_mlg.worktodo.Fragmentallday;
 import id.sch.smktelkom_mlg.worktodo.R;
 import id.sch.smktelkom_mlg.worktodo.model.Item;
 
@@ -27,6 +28,11 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     public ItemAdapter(Context context, ArrayList<Item> hotelList) {
         this.hotelList = hotelList;
         mIHotelAdapter = (IHotelAdapter) context;
+    }
+
+    public ItemAdapter(Fragmentallday fragmentallday, ArrayList<Item> hotelList) {
+        this.hotelList = hotelList;
+        mIHotelAdapter = fragmentallday;
     }
 
     @Override

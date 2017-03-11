@@ -20,12 +20,12 @@
         </activity>
         <activity android:name=".MainActivity" />
 
+        <activity android:name=".InputActivity"></activity>
+
         <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".InputActivity"></activity>
 
         <activity
             android:name=".NavigationActivity"
