@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:scrollbars="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main">
+    tools:context="id.sch.smktelkom_mlg.worktodo.MainActivity"
+    tools:showIn="@layout/layout_allday">
 
 </android.support.v7.widget.RecyclerView>
