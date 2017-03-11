@@ -50,7 +50,7 @@ public class InputActivity extends AppCompatActivity {
                 }
         );
 
-        hotel = (Item) getIntent().getSerializableExtra(MainActivity.HOTEL);
+        hotel = (Item) getIntent().getSerializableExtra(Fragmentallday.HOTEL);
         if (hotel != null) {
             setTitle("Edit " + hotel.judul);
             fillData();
@@ -79,7 +79,7 @@ public class InputActivity extends AppCompatActivity {
                     detail, lokasi, uriFoto.toString());
 
             Intent intent = new Intent();
-            intent.putExtra(MainActivity.HOTEL, hotel);
+            intent.putExtra(Fragmentallday.HOTEL, hotel);
             setResult(RESULT_OK, intent);
             finish();
         }
