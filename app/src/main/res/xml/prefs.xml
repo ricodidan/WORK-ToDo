@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preference_notification_category">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkBoxVibrate"
+            android:title="@string/checkbox_vibrate" />
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="NotificationSound"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:title="@string/checkbox_sound" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkBoxLED"
+            android:title="@string/checkbox_LED" />
+        <CheckBoxPreference
+            android:key="checkBoxOngoing"
+            android:summary="@string/ongoing_detail"
+            android:title="@string/checkbox_ongoing" />
+        <CheckBoxPreference
+            android:key="checkBoxMarkAsDone"
+            android:summary="@string/mark_as_done_detail"
+            android:title="@string/mark_as_done" />
+        <CheckBoxPreference
+            android:key="checkBoxSnooze"
+            android:summary="@string/snooze_detail"
+            android:title="@string/snooze" />
+        <CheckBoxPreference
+            android:key="checkBoxNagging"
+            android:summary="@string/nagging_detail"
+            android:title="@string/nagging_reminder" />
+        <id.sch.smktelkom_mlg.worktodo.dialogs.PreferenceNagTimePicker
+            android:key="nagInterval"
+            android:title="@string/nagging_interval" />
+    </PreferenceCategory>
+</PreferenceScreen>

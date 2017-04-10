@@ -21,10 +21,15 @@ import android.view.WindowManager;
 
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
+import butterknife.BindView;
+import butterknife.OnClick;
+import id.sch.smktelkom_mlg.worktodo.activities.CreateEditActivity;
+import id.sch.smktelkom_mlg.worktodo.activities.PreferenceActivity;
+
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static final int REQUEST_CODE_ADD = 88;
+    @BindView(R.id.fab_button)
     NavigationView navigationView = null;
     Toolbar toolbar = null;
     android.app.FragmentManager fragmentManager = getFragmentManager();
@@ -34,11 +39,11 @@ public class NavigationActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_button);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goAdd();
+                fabClicked();
             }
         });
 
@@ -60,9 +65,8 @@ public class NavigationActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         //set fragment pertama kali
-        fragmentManager.beginTransaction()
-                .replace(R.id.content_frame
-                        , new FragmentGuide())
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.content_framenav, new FragmentGuide())
                 .commit();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -75,8 +79,10 @@ public class NavigationActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
-    private void goAdd() {
-        startActivityForResult(new Intent(this, InputActivity.class), REQUEST_CODE_ADD);
+    @OnClick(R.id.fab_button)
+    public void fabClicked() {
+        Intent intent = new Intent(this, CreateEditActivity.class);
+        startActivity(intent);
 
     }
 
@@ -115,18 +121,18 @@ public class NavigationActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.navigation, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Intent preferenceIntent = new Intent(this, PreferenceActivity.class);
+                startActivity(preferenceIntent);
+                return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -137,49 +143,40 @@ public class NavigationActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_guide) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new FragmentGuide())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new FragmentGuide())
                     .commit();
         } else if (id == R.id.nav_first) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment1())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment1())
                     .commit();
         } else if (id == R.id.nav_second) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment2())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment2())
                     .commit();
         } else if (id == R.id.nav_third) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment3())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment3())
                     .commit();
         } else if (id == R.id.nav_four) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment4())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment4())
                     .commit();
         } else if (id == R.id.nav_five) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment5())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment5())
                     .commit();
         } else if (id == R.id.nav_six) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment6())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment6())
                     .commit();
         } else if (id == R.id.nav_seven) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragment7())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragment7())
                     .commit();
         } else if (id == R.id.nav_allday) {
-            fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame
-                            , new Fragmentallday())
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.content_framenav, new Fragmentallday())
                     .commit();
         }
 

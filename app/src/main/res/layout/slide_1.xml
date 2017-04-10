@@ -21,13 +21,13 @@
         android:textStyle="bold" />
 
     <LinearLayout
+        android:id="@+id/shimmer_view_container"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
         android:gravity="center"
         android:orientation="vertical"
         android:weightSum="1">
-
 
         <ImageView
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_weight="1.33"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/ic_menu_gallery" />
+            android:src="@drawable/a9" />
     </LinearLayout>
 
     <TextView

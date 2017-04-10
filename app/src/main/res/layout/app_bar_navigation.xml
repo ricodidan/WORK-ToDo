@@ -14,19 +14,20 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="24dp"></FrameLayout>
+            android:layout_height="24dp"
+            android:background="@color/headertop"></FrameLayout>
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="?attr/colorPrimary"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/headertop"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/fab_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
@@ -34,8 +35,9 @@
         android:tint="@android:color/white"
         app:srcCompat="@drawable/ic_add_black_24dp" />
 
+
     <FrameLayout
-        android:id="@+id/content_frame"
+        android:id="@+id/content_framenav"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingTop="70dp"></FrameLayout>

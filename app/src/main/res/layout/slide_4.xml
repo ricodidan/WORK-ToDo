@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_weight="10"
-    android:background="#e4272d"
+    android:background="#ca5154"
     android:orientation="vertical">
 
     <TextView
@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/ic_menu_camera" />
+            android:src="@drawable/ic_mood_black_24dp" />
     </LinearLayout>
 
     <TextView

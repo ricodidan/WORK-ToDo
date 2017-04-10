@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animationCache="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:drawSelectorOnTop="true"
+        android:paddingBottom="@dimen/fab_recycler_view_padding"
+        android:paddingLeft="@dimen/list_padding"
+        android:paddingRight="@dimen/list_padding"
+        android:paddingTop="4dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollingCache="false" />
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/empty_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.1"
+            android:paddingBottom="20dp"
+            android:src="@drawable/ic_notifications_black_empty" />
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:text="@string/no_active"
+            android:textColor="@color/emptyColour"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

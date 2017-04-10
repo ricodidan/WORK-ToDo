@@ -6,11 +6,11 @@
     android:fitsSystemWindows="true"
     tools:context="id.sch.smktelkom_mlg.worktodo.Fragmentallday">
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="24dp"></FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"></FrameLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/activity_main" />
 
 
 </android.support.design.widget.CoordinatorLayout>

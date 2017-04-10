@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/ic_menu_manage" />
+            android:src="@drawable/a4" />
     </LinearLayout>
 
     <TextView
@@ -44,7 +44,7 @@
         android:gravity="center"
         android:paddingLeft="34dp"
         android:paddingRight="34dp"
-        android:text="50+ amazing features and it's 100% free to use."
+        android:text="Dalam aplikasi ini kalian bisa mengatur Kegiatan Kos loh,"
         android:textColor="#ffffff"
         android:textSize="16sp" />
 
