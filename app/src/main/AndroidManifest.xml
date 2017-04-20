@@ -43,6 +43,11 @@
             android:theme="@style/AppThemeLight" />
 
         <activity
+            android:name=".activities.AboutActivity"
+            android:label="About"
+            android:theme="@style/AppThemeLight" />
+
+        <activity
             android:name=".activities.ViewActivity"
             android:theme="@style/AppThemeLight" />
 

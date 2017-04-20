@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.worktodo;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -14,8 +13,6 @@ import com.astuetz.PagerSlidingTabStrip;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
-import id.sch.smktelkom_mlg.worktodo.activities.CreateEditActivity;
 import id.sch.smktelkom_mlg.worktodo.adapter.ReminderAdapter;
 import id.sch.smktelkom_mlg.worktodo.adapter.ViewPageAdapter;
 
@@ -38,14 +35,13 @@ public class Fragmentallday extends Fragment implements ReminderAdapter.Recycler
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         return inflater.inflate(R.layout.layout_allday, container, false);
     }
 
     @Override
     public void onViewCreated(View view, Bundle bundle) {
         super.onViewCreated(view, bundle);
-        //you can set the title for your toolbar here for different fragments different titles
-        getActivity().setTitle("ToDo Semua Hari");
         ButterKnife.bind(this, view);
 
         ViewPageAdapter adapter = new ViewPageAdapter(getActivity().getSupportFragmentManager());
@@ -54,13 +50,10 @@ public class Fragmentallday extends Fragment implements ReminderAdapter.Recycler
         pagerSlidingTabStrip.setViewPager(viewPager);
         int pageMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 4, getResources().getDisplayMetrics());
         viewPager.setPageMargin(pageMargin);
+        //you can set the title for your toolbar here for different fragments different titles
+        getActivity().setTitle("ToDo Semua Hari");
     }
 
-    @OnClick(R.id.fab_button)
-    public void fabClicked() {
-        Intent intent = new Intent(getActivity(), CreateEditActivity.class);
-        startActivity(intent);
-    }
 
     public void hideFab() {
         floatingActionButton.hide();

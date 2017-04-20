@@ -23,6 +23,7 @@ import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import butterknife.BindView;
 import butterknife.OnClick;
+import id.sch.smktelkom_mlg.worktodo.activities.AboutActivity;
 import id.sch.smktelkom_mlg.worktodo.activities.CreateEditActivity;
 import id.sch.smktelkom_mlg.worktodo.activities.PreferenceActivity;
 
@@ -32,7 +33,6 @@ public class NavigationActivity extends AppCompatActivity
     @BindView(R.id.fab_button)
     NavigationView navigationView = null;
     Toolbar toolbar = null;
-    android.app.FragmentManager fragmentManager = getFragmentManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -131,6 +131,10 @@ public class NavigationActivity extends AppCompatActivity
             case R.id.action_settings:
                 Intent preferenceIntent = new Intent(this, PreferenceActivity.class);
                 startActivity(preferenceIntent);
+                return true;
+            case R.id.action_about:
+                Intent aboutIntent = new Intent(this, AboutActivity.class);
+                startActivity(aboutIntent);
                 return true;
         }
         return super.onOptionsItemSelected(item);

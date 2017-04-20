@@ -1,18 +1,9 @@
 <resources>
-    <string name="developer_name" translatable="false">Jonas Bleyl</string>
-    <string name="email" translatable="false">bleyl.android@gmail.com</string>
-    <string name="app_url" translatable="false">https://play.google.com/store/apps/details?id=com.bleyl.recurrence</string>
+    <string name="developer_name" translatable="false">Team WORK ToDo</string>
+    <string name="email" translatable="false"></string>
+    <string name="app_url" translatable="false"></string>
 
     <string name="one" translatable="false">1</string>
-
-    <string name="contributor_one" translatable="false">Robert Ehrhardt</string>
-    <string name="contributor_two" translatable="false">TykTak</string>
-    <string name="contributor_three" translatable="false">Ivica Jeđud</string>
-    <string name="contributor_four" translatable="false">Fan Guan</string>
-    <string name="contributor_five" translatable="false">Tibor Barczi</string>
-    <string name="contributor_six" translatable="false">Sérgio Polo</string>
-    <string name="contributor_seven" translatable="false">Alberto Nicoletti</string>
-    <string name="contributor_eight" translatable="false">greizgh</string>
 
     <string name="default_colour_value" translatable="false">#8e8e8e</string>
 

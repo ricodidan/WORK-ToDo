@@ -2,40 +2,50 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_guide"
+            android:checked="true"
             android:icon="@drawable/ic_import_contacts_black_24dp"
-            android:title="Guide ^_^" />
+            android:title="Guide" />
         <item
             android:id="@+id/nav_allday"
-            android:icon="@drawable/ic_today_black_24dp"
+            android:checked="false"
+            android:icon="@drawable/ic_date_range_black_24dp"
             android:title="Semua Hari" />
         <item
             android:id="@+id/nav_first"
+            android:checked="false"
             android:icon="@drawable/ic_filter_1_black_24dp"
             android:title="Hari Senin" />
         <item
             android:id="@+id/nav_second"
+            android:checked="false"
             android:icon="@drawable/ic_filter_2_black_24dp"
             android:title="Hari Selasa" />
         <item
             android:id="@+id/nav_third"
+            android:checked="false"
             android:icon="@drawable/ic_filter_3_black_24dp"
             android:title="Hari Rabu" />
         <item
             android:id="@+id/nav_four"
+            android:checked="false"
             android:icon="@drawable/ic_filter_4_black_24dp"
             android:title="Hari Kamis" />
         <item
             android:id="@+id/nav_five"
+            android:checked="false"
             android:icon="@drawable/ic_filter_5_black_24dp"
             android:title="Hari Jumat" />
         <item
             android:id="@+id/nav_six"
+            android:checked="false"
             android:icon="@drawable/ic_filter_6_black_24dp"
             android:title="Hari Sabtu" />
         <item
             android:id="@+id/nav_seven"
+            android:checked="false"
             android:icon="@drawable/ic_filter_7_black_24dp"
             android:title="Hari Minggu" />
     </group>

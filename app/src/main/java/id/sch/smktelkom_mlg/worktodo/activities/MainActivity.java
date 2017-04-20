@@ -6,8 +6,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.TypedValue;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.Window;
 
 import com.astuetz.PagerSlidingTabStrip;
@@ -72,21 +70,4 @@ public class MainActivity extends AppCompatActivity implements ReminderAdapter.R
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.navigation, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                Intent preferenceIntent = new Intent(this, PreferenceActivity.class);
-                startActivity(preferenceIntent);
-                return true;
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }
