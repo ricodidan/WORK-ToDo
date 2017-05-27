@@ -17,8 +17,15 @@ Activity ini berisi tanggal dan waktu untuk mengatur reminder yang dibuat, detai
 Activity ini berisi tentang informasi mengenai program dan juga biodata kelompok kami.<br>
 
 ### Petunjuk Penggunaan Aplikasi ###
-Pada saat pertama kali masuk aplikasi, kita akan disambut intro application yang berfungsi sebagai informasi dari aplikasi. Kita bisa memilih melihat keseluruhan intro atau menekan tombol skip untuk melewati intro tanpa melihatnya. Berikut ini tampilan intro application.<br>
-![layout-2017-04-10-173420](https://cloud.githubusercontent.com/assets/22855247/26518989/b71b86dc-42e4-11e7-94be-4e17e9daa154.png)
-![layout-2017-04-10-173428](https://cloud.githubusercontent.com/assets/22855247/26518991/b735916c-42e4-11e7-9b42-f7ed29235962.png)
-![layout-2017-04-10-173438](https://cloud.githubusercontent.com/assets/22855247/26518992/b738dfde-42e4-11e7-9218-9b23a9b0d223.png)
-![layout-2017-04-10-173446](https://cloud.githubusercontent.com/assets/22855247/26518993/b73aed6a-42e4-11e7-9ae2-d16333551f41.png)
+1. Pada saat pertama kali masuk aplikasi, kita akan disambut intro application yang berfungsi sebagai informasi dari aplikasi. Kita bisa memilih melihat keseluruhan intro atau menekan tombol skip untuk melewati intro tanpa melihatnya. Berikut ini tampilan intro application.<br>
+![layout-2017-04-10-173420](https://cloud.githubusercontent.com/assets/22855247/26518989/b71b86dc-42e4-11e7-94be-4e17e9daa154.png)<br>
+![layout-2017-04-10-173428](https://cloud.githubusercontent.com/assets/22855247/26518991/b735916c-42e4-11e7-9b42-f7ed29235962.png)<br>
+![layout-2017-04-10-173438](https://cloud.githubusercontent.com/assets/22855247/26518992/b738dfde-42e4-11e7-9218-9b23a9b0d223.png)<br>
+![layout-2017-04-10-173446](https://cloud.githubusercontent.com/assets/22855247/26518993/b73aed6a-42e4-11e7-9ae2-d16333551f41.png)<br>
+
+2. Kemudian kita akan masuk ke halaman Guide. Halaman ini berfungsi sebagai panduan untuk menjalankan aplikasi. Berisi informasi tentang fungsi button sekitar. Berikut tampilan Guide Work ToDo.<br>
+![1](https://cloud.githubusercontent.com/assets/22855247/26519237/118875a0-42e8-11e7-8d4b-6171d8947d93.jpg)<br>
+
+3. Selanjutnya kita akan masuk ke halaman Add Reminder. Kita harus mengisi judul, deskripsi, waktu dan tanggal. Kita juga bisa mengisi dan memilih pengulangan reminder. Klik button save dipojok kanan atas setelah mengisi reminder. <br>
+
+
