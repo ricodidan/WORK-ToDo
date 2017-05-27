@@ -27,5 +27,18 @@ Activity ini berisi tentang informasi mengenai program dan juga biodata kelompok
 ![1](https://cloud.githubusercontent.com/assets/22855247/26519237/118875a0-42e8-11e7-8d4b-6171d8947d93.jpg)<br>
 
 3. Selanjutnya kita akan masuk ke halaman Add Reminder. Kita harus mengisi judul, deskripsi, waktu dan tanggal. Kita juga bisa mengisi dan memilih pengulangan reminder. Klik button save dipojok kanan atas setelah mengisi reminder. <br>
+![2](https://cloud.githubusercontent.com/assets/22855247/26519245/3c52842e-42e8-11e7-91ce-838ef911a37f.jpg)<br>
+
+4. Untuk melihat reminder yang sudah disimpan, kita ke fragment Work ToDo Semua Hari. Reminder yang kita buat akan terurutkan sesuai jam, hari, tanggal, bulan dan tahun.<br>
+![3](https://cloud.githubusercontent.com/assets/22855247/26519270/9af0ab28-42e8-11e7-93c8-44782efe6240.jpg)<br>
+
+5. Kita bisa mengatur ingin seperti apa output-an reminder di menu setting. <br>
+![4](https://cloud.githubusercontent.com/assets/22855247/26519287/e62971ec-42e8-11e7-8578-a299750e1b20.jpg)<br>
+
+6. Jika sudah mencapai batas waktu, akan ada notifikasi yang muncul.<br>
+![5](https://cloud.githubusercontent.com/assets/22855247/26519294/04cec07a-42e9-11e7-9737-49655f7e0964.jpg)<br>
+
+7. Setelah notifikasi muncul, secara otomatis reminder akan berpindah ke Done Notification List.<br>
+![6](https://cloud.githubusercontent.com/assets/22855247/26519295/04d0cb72-42e9-11e7-8629-2dd2d97766ac.jpg)<br>
 
 
