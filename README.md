@@ -16,3 +16,9 @@ Activity ini berisi tanggal dan waktu untuk mengatur reminder yang dibuat, detai
 7.	About Us<br>
 Activity ini berisi tentang informasi mengenai program dan juga biodata kelompok kami.<br>
 
+### Petunjuk Penggunaan Aplikasi ###
+Pada saat pertama kali masuk aplikasi, kita akan disambut intro application yang berfungsi sebagai informasi dari aplikasi. Kita bisa memilih melihat keseluruhan intro atau menekan tombol skip untuk melewati intro tanpa melihatnya. Berikut ini tampilan intro application.<br>
+![layout-2017-04-10-173420](https://cloud.githubusercontent.com/assets/22855247/26518989/b71b86dc-42e4-11e7-94be-4e17e9daa154.png)
+![layout-2017-04-10-173428](https://cloud.githubusercontent.com/assets/22855247/26518991/b735916c-42e4-11e7-9b42-f7ed29235962.png)
+![layout-2017-04-10-173438](https://cloud.githubusercontent.com/assets/22855247/26518992/b738dfde-42e4-11e7-9218-9b23a9b0d223.png)
+![layout-2017-04-10-173446](https://cloud.githubusercontent.com/assets/22855247/26518993/b73aed6a-42e4-11e7-9ae2-d16333551f41.png)
