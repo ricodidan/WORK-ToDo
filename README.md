@@ -42,4 +42,4 @@ Activity ini berisi tentang informasi mengenai program dan juga biodata kelompok
 ![6](https://cloud.githubusercontent.com/assets/22855247/26519295/04d0cb72-42e9-11e7-8629-2dd2d97766ac.jpg)<br>
 
 ### Lampiran Video ###
-* https://youtu.be/KgrvnVzXsCs
+[![Watch Video](https://img.youtube.com/vi/KgrvnVzXsCs/0.jpg)](https://www.youtube.com/watch?v=KgrvnVzXsCs)
